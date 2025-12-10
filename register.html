@@ -9,13 +9,13 @@
 <body>
   <div class="register-box">
     <h1>Register now</h1>
-    <form action="" method="post" enctype="multipart/form-data">
-    <input type="text" name="user-id" placeholder="user-id" class="box">
-    <input type="e-mail" name="e-mail" placeholder="E-mail" class="box">
-    <input type="text"  name="phone-number" placeholder="Phone Number" class="box">
+    <form action="register.php" method="post" enctype="multipart/form-data">
+    <input type="text" name="user_id" placeholder="user-id" class="box">
+    <input type="email" name="email" placeholder="E-mail" class="box">
+    <input type="text"  name="phone_number" placeholder="Phone Number" class="box">
     <input type="password"  name="password" placeholder="Password" class=" box"required>
     <input type="password"  name="confirm-password" placeholder="Confirm Password" class="box" required>
-    <input type="file" class="box" accept="image/jpg, image/jpeg, image/png, image/gif">
+    <input type="file" name="profile_pic" class="box" accept="image/jpg, image/jpeg, image/png, image/gif">
     <input type="submit" value="register-now" class="btn">
     <p>already have an account? <a href="login.html">login now</a></p>
     <a href="index.html" class="back-link"><- Back to Home</a>

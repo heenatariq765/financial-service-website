@@ -1,20 +1,24 @@
-<!DOCTYPE html>
+
+  <!DOCTYPE html>
 <html lang="en">
 <head>
- <title>contact us</title>
-    <link rel="stylesheet" href="contact.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-  <div class=contact>
+  <div class="contact">
     <h1 style="color: red;">Contact Us</h1>
-    <input type="text" name="Name" placeholder="name" class="box"><br>
-    <input type="e-mail" name="e-mail" placeholder="E-mail" class="box"><br>
-    <input type="text"  name="phone-number" placeholder="Phone Number" class="box"><br>
-    <textarea name="message" placeholder="Your Message" class="box"></textarea>
-    <input type="submit" value="Submit" class="btn">
-    <br>
-    <a href="index.html" class="back-link" ><- Back to Home</a>
+    <form action="submit_contact.php" method="post">
+      <input type="text" name="name" placeholder="Name" class="box" required><br>
+      <input type="email" name="email" placeholder="Email" class="box" required><br>
+      <input type="text" name="phoneNumber" placeholder="Phone Number" class="box" required><br>
+      <textarea name="message" placeholder="Your Message" class="box" required></textarea><br>
+      <input type="submit" value="Submit" class="btn">
+      <br>
+      <a href="index.html" class="back-link"><- Back to Home</a>
     </form>
   </div>
-  </body>
-  </html>
+</body>
+</html>

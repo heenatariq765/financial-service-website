@@ -17,7 +17,6 @@
         background: #a37979;
     }
 
-    /* Top Header */
     .top-bar{
         display: flex;
         justify-content: space-between;
@@ -41,7 +40,6 @@
         font-size: 20px;
     }
 
-    /* Index boxes */
     .indexes{
         display: flex;
         gap: 10px;
@@ -61,7 +59,6 @@
         font-size: 14px;
     }
 
-    /* Tabs */
     .tabs{
         display: flex;
         justify-content: space-around;
@@ -79,7 +76,6 @@
         font-weight: bold;
     }
 
-    /* CONTENT AREA */
     .content{
         padding: 15px;
         min-height: 60vh;
@@ -89,7 +85,7 @@
         display: none;
     }
 
-    /* Holdings Box */
+
     .hold-box{
         background: white;
         padding: 15px;
@@ -100,8 +96,6 @@
 
     .returns-green{ color: green; }
     .returns-red{ color: red; }
-
-    /* Orders Page */
     .orders-box{
         text-align: center;
         margin-top: 50px;
@@ -119,7 +113,6 @@
 </head>
 <body>
 
-<!-- TOP BAR -->
 <div class="top-bar">
     <div class="top-title">Stocks</div>
     <div class="icons">
@@ -127,7 +120,7 @@
     </div>
 </div>
 
-<!-- INDEXES -->
+
 <div class="indexes">
     <div class="index-box">
         <div>NIFTY 50</div>
@@ -139,13 +132,12 @@
     </div>
 </div>
 
-<!-- TABS -->
+
 <div class="tabs">
     <div class="tab active-tab" onclick="showTab('holdings')">Holdings</div>
     <div class="tab" onclick="showTab('orders')">Orders</div>
 </div>
 
-<!-- CONTENT AREA -->
 
 <div id="holdings" class="content">
     <div class="hold-box">
@@ -165,7 +157,6 @@
     </div>
 </div>
 
-<!-- ORDERS PAGE -->
 <div id="orders" class="content hide">
     <div class="orders-box">
         <img src="https://cdn-icons-png.flaticon.com/512/833/833593.png" width="100">

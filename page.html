@@ -13,7 +13,6 @@ body {
     background: #f5f5f5;
 }
 
-/* Fixed Top Section */
 .header, .indexes, .tabs {
     background: #fff;
     position: sticky;
@@ -21,7 +20,7 @@ body {
     z-index: 10;
 }
 
-/* HEADER */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -34,7 +33,6 @@ body {
 
 .icons { font-size: 22px; display: flex; gap: 15px; }
 
-/* INDEX BOXES */
 .indexes {
     display: flex;
     gap: 10px;
@@ -48,7 +46,6 @@ body {
 }
 .index-green { color: green; }
 
-/* TABS */
 .tabs {
     display: flex;
     border-bottom: 1px solid #ccc;
@@ -70,12 +67,10 @@ input#tab2:checked ~ .tabs label[for="tab2"] {
     border-bottom: 3px solid black;
 }
 
-/* CONTENT */
 .content {
     padding: 15px;
 }
 
-/* Show / Hide content via CSS */
 #holdings, #orders {
     display: none;
 }
@@ -87,7 +82,7 @@ input#tab2:checked ~ .tabs label[for="tab2"] {
     display: block;
 }
 
-/* UI BOXES */
+
 .box {
     background: #fff;
     padding: 15px;
@@ -109,17 +104,15 @@ input#tab2:checked ~ .tabs label[for="tab2"] {
 </head>
 <body>
 
-<!-- RADIO BUTTONS FOR CSS TABS -->
+
 <input type="radio" name="tabs" id="tab1" checked>
 <input type="radio" name="tabs" id="tab2">
 
-<!-- HEADER -->
 <div class="header">
     <div class="title">Stocks</div>
     <div class="icons">🔍 ⬜ </div>
 </div>
 
-<!-- INDEXES -->
 <div class="indexes">
     <div class="index-box">
         NIFTY 50<br>
@@ -131,15 +124,12 @@ input#tab2:checked ~ .tabs label[for="tab2"] {
     </div>
 </div>
 
-<!-- TABS -->
 <div class="tabs">
     <label for="tab1">Holdings</label>
     <label for="tab2">Orders</label>
 </div>
 
-<!-- CONTENT AREA -->
 
-<!-- HOLDINGS PAGE -->
 <div id="holdings" class="content">
 
     <div class="box">
@@ -160,7 +150,6 @@ input#tab2:checked ~ .tabs label[for="tab2"] {
 
 </div>
 
-<!-- ORDERS PAGE -->
 <div id="orders" class="content">
     <div class="orders-empty">
         <img src="https://cdn-icons-png.flaticon.com/512/833/833593.png" width="100"><br><br>

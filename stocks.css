@@ -3,8 +3,6 @@ body {
     font-family: Arial, sans-serif;
     background: #f8f9fb;
 }
-
-/* Header */
 .top-bar {
     display: flex;
     align-items: center;
@@ -42,7 +40,6 @@ body {
     color: rgb(0, 120, 0);
 }
 
-/* Tabs */
 .tabs {
     display: flex;
     border-bottom: 1px solid #bd9a9a;
@@ -65,7 +62,6 @@ body {
     font-size: 18px;
 }
 
-/* Stock items */
 .stock-list {
     padding: 10px 20px;
 }
@@ -92,7 +88,6 @@ body {
     color: #0f9d0f;
 }
 
-/* Bottom Navigation */
 .bottom-nav {
     position: fixed;
     bottom: 0;
